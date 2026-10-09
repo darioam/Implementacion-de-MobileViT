@@ -17,7 +17,7 @@ El proyecto se desarrolla siguiendo varias etapas:
 3. Preparación de un problema de **clasificación binaria** utilizando STL-10.
 4. Entrenamiento y validación del modelo.
 5. Evaluación final sobre el conjunto de test.
-6. Análisis de las métricas y del comportamiento del entrenamiento.
+6. Obtención de métricas y del comportamiento del entrenamiento.
 
 ---
 
@@ -177,7 +177,7 @@ Aunque se utilizan pesos de clase y aumento de datos para mitigar este problema,
 
 ---
 
-## Estructura del proyecto
+## 7. Estructura del proyecto
 
 El proyecto se presenta principalmente como un **Jupyter Notebook** que documenta progresivamente:
 
@@ -189,17 +189,6 @@ El proyecto se presenta principalmente como un **Jupyter Notebook** que document
 * Validación.
 * Evaluación y test.
 * Resultados.
-
-## Objetivo del proyecto
-
-El objetivo principal no es obtener el mejor clasificador posible, sino utilizar MobileViT como vehículo para estudiar de forma práctica diferentes conceptos de Deep Learning:
-
-* Redes convolucionales.
-* Vision Transformers.
-* Atención y representación global.
-* Manipulación de tensores y patches.
-* Entrenamiento mediante backpropagation.
-* Optimización con AdamW.
 * Learning-rate scheduling.
 * Regularización.
 * Mixed precision.
